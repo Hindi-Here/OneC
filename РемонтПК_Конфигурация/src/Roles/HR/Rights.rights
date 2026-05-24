@@ -55,7 +55,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.Специалисты</name>
+		<name>Catalog.Специалисты2</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>

@@ -40,7 +40,7 @@
       <value>Специалист</value>
     </synonym>
     <type>
-      <types>CatalogRef.Специалисты</types>
+      <types>CatalogRef.Специалисты2</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

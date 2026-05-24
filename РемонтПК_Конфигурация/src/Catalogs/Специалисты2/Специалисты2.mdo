@@ -7,14 +7,14 @@
     <listType typeId="85b51560-e162-4f0c-9303-f4d3ea899e23" valueTypeId="87cc5877-74db-4e9d-917f-ae583cc33c70"/>
     <managerType typeId="d1671963-3def-4945-b52d-b88971ad3c5a" valueTypeId="21775d73-b519-406b-93bb-baf9a77ae361"/>
   </producedTypes>
-  <name>Специалисты</name>
+  <name>Специалисты2</name>
   <synonym>
     <key>ru</key>
-    <value>Специалисты</value>
+    <value>Специалисты2</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <inputByString>Catalog.Специалисты.StandardAttribute.Description</inputByString>
-  <inputByString>Catalog.Специалисты.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Специалисты2.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Специалисты2.StandardAttribute.Code</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
