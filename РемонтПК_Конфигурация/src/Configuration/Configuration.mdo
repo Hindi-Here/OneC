@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c06acf03-48c5-4dbd-976e-beab7334e434">
+  <name>Конфигурация</name>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="6954b788-d1a4-4921-a3d6-12b6a0a4959f"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="74d9f87e-c9f4-47ee-8893-1f23d32141a5"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="bc86452c-eb74-492e-9b3d-1743c69bd26c"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="2a49ebf8-1d4e-4988-a8ba-317f48872737"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="72756d37-30ab-40ef-9169-84327f4b371d"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="fef945ee-01d5-4a78-a533-bca23f719dd2"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="58dd9277-a358-4865-916f-88c5c1394e73"/>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <clientApplicationWindowsOpenVariant>OpenDataInDialogs</clientApplicationWindowsOpenVariant>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <interfaceCompatibilityMode>Version8_5</interfaceCompatibilityMode>
+  <version85InterfaceMigrationMode>Use</version85InterfaceMigrationMode>
+  <compatibilityMode>8.5.1</compatibilityMode>
+  <languages uuid="5ade13d8-ff06-4918-8e29-99c867d9a322">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <roles>Role.HR</roles>
+  <roles>Role.Оператор</roles>
+  <roles>Role.Кладовщик</roles>
+  <roles>Role.Специалист</roles>
+  <roles>Role.Руководитель</roles>
+  <roles>Role.Администратор</roles>
+  <catalogs>Catalog.КлиентыСервис</catalogs>
+  <catalogs>Catalog.КаталогУслуг</catalogs>
+  <catalogs>Catalog.Специалисты</catalogs>
+  <catalogs>Catalog.Поставщики</catalogs>
+  <catalogs>Catalog.ТоварыНаСкладе</catalogs>
+  <documents>Document.ЗаявкаНаРемонт</documents>
+  <documents>Document.АктВыполненныхРабот</documents>
+  <documents>Document.ЗакупкаЗапчастей</documents>
+  <enums>Enum.Специализация</enums>
+  <enums>Enum.СтатусЗаявки</enums>
+  <enums>Enum.Проблема</enums>
+  <enums>Enum.ДниНедели</enums>
+  <reports>Report.ПричиныОбращений</reports>
+  <reports>Report.ЭффективностьСпециалистов</reports>
+  <reports>Report.ИсторияОбращений</reports>
+  <accumulationRegisters>AccumulationRegister.ЗагруженностьСпециалистов</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.ОстаткиЗапчастей</accumulationRegisters>
+</mdclass:Configuration>

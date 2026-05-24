@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9801e493-b317-4509-a1ad-1a89d964da3e">
+  <producedTypes>
+    <refType typeId="8f9b1873-947f-4def-bc4a-597df15f9491" valueTypeId="992dc423-4d83-4ead-ad88-40eb260d45fc"/>
+    <listType typeId="73c2f642-1be4-4315-a015-f0b3e90963ba" valueTypeId="36c2f682-a238-490f-a8fe-d9fcaa5cedec"/>
+    <managerType typeId="96b3fd8f-81c6-4d43-8042-37d2624be89c" valueTypeId="4ab092c6-475d-40ae-aa34-b7cc69630608"/>
+  </producedTypes>
+  <name>Проблема</name>
+  <synonym>
+    <key>ru</key>
+    <value>Проблема</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="e2c4e93c-36d0-4692-ad60-8b799ceaa13a">
+    <name>НеВключаетсяУстройство</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не включается устройство</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f7b7de77-7dd6-4bc8-8f8f-c82c20879459">
+    <name>МедленнаяРаботаУстройства</name>
+    <synonym>
+      <key>ru</key>
+      <value>Медленная работа устройства</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2955fd18-94ec-4c14-8763-bff95a224540">
+    <name>ПересталПечататьПринтер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Перестал печатать принтер</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1d1c55b9-9aa0-4d9d-a164-bfe88d4773f7">
+    <name>НаличиеВирусовИУгроз</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наличие вирусов и угроз</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0965cad3-4bf5-4b60-b970-5d63875c45ec">
+    <name>ПостороннийШум</name>
+    <synonym>
+      <key>ru</key>
+      <value>Посторонний шум</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ad6531a7-d76f-4db9-bfd3-57bc16b2b440">
+    <name>ЗаменаКомплектующих</name>
+    <synonym>
+      <key>ru</key>
+      <value>Замена комплектующих</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9516a74f-ac9b-4147-bcd7-54701e2fe930">
+  <producedTypes>
+    <objectType typeId="7a335929-6ae9-419a-9e81-4e06f6024d5f" valueTypeId="3b4e4354-88cc-41e0-b9e8-de8c81477092"/>
+    <refType typeId="6c44b16a-ca30-4072-9398-2186c94c4b41" valueTypeId="aa201002-d410-4951-9b8a-a9ee5a564dc6"/>
+    <selectionType typeId="e3216974-9d71-429a-96d4-dbc55b0f7b76" valueTypeId="dfe04afe-b262-4712-9e39-f49c23f7f9dd"/>
+    <listType typeId="10e21a4c-af63-427e-9aba-3cdf54f6af3f" valueTypeId="c678ab14-8d63-49fb-a3c9-bb92fce95e48"/>
+    <managerType typeId="30187506-b3f4-48a2-8cf5-e674a16aa215" valueTypeId="73520588-ee83-419b-9573-98205042690b"/>
+  </producedTypes>
+  <name>КаталогУслуг</name>
+  <synonym>
+    <key>ru</key>
+    <value>Каталог услуг</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.КаталогУслуг.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.КаталогУслуг.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="60645306-62da-4828-b44b-c7b07778b561">
+    <name>Стоимость</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стоимость</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>6</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

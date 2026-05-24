@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="19b68321-10ba-4bdb-b17a-e0e2d9e283b6">
+  <producedTypes>
+    <selectionType typeId="ba8641f5-941f-4282-93e0-ca56af870b7c" valueTypeId="2aba3d26-d6b8-446f-9893-531c9d8224ff"/>
+    <listType typeId="3ad0cfd0-c85e-456b-b307-d9050c4cfa41" valueTypeId="750943b3-db51-4923-ac87-4e07245ef8ec"/>
+    <managerType typeId="03bb8a88-c276-40c4-9d3f-9c6f73799a1f" valueTypeId="90ae411f-c447-4420-a033-699777849339"/>
+    <recordSetType typeId="e01c1550-1cd4-4f7f-993d-581f5747c274" valueTypeId="4df5ac77-f64d-4a97-b1e4-4d136495c229"/>
+    <recordKeyType typeId="8e5f8037-e1a5-474e-b0ea-3c879fa80d44" valueTypeId="7c140019-2e20-45b9-87cc-7099de1a0329"/>
+    <recordType typeId="a9d1061c-e479-4986-bb63-819d3570150f" valueTypeId="c9de47dc-7fd8-464c-ae88-ec0da718d2cf"/>
+  </producedTypes>
+  <name>ЗагруженностьСпециалистов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загруженность специалистов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <registerType>Turnovers</registerType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="912f4add-3fa2-4738-8ef0-207d9256b722">
+    <name>КоличествоРабот</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество работ</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="115d2d59-09b7-4ee7-983b-d070aeda20d8">
+    <name>Специалист</name>
+    <synonym>
+      <key>ru</key>
+      <value>Специалист</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Специалисты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="b0749ed9-869a-4cbc-8902-d77ea519a6a7">
+    <name>Заявка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заявка</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ЗаявкаНаРемонт</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

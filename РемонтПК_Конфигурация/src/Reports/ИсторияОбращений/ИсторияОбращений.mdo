@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="040bd385-0dca-4737-bdd6-77f876ce22b8">
+  <producedTypes>
+    <objectType typeId="7cf48433-0c62-483a-b076-fc0629687625" valueTypeId="940d4160-88b2-4120-9fbf-b430d894f403"/>
+    <managerType typeId="c6bd6491-b426-495e-ae17-76eb2f5fd4ea" valueTypeId="88e4541d-78dc-4a24-aed2-2596e261f23d"/>
+  </producedTypes>
+  <name>ИсторияОбращений</name>
+  <synonym>
+    <key>ru</key>
+    <value>История обращений</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ИсторияОбращений.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="0fdfb64d-f9ea-460e-bbdc-db0539bd0e07">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

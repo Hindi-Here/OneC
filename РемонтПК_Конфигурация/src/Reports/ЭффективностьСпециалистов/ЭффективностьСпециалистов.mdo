@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e50e741b-e995-4d9e-b8a2-1149f42d73c7">
+  <producedTypes>
+    <objectType typeId="a98d0624-4678-4df5-85fc-22e253355d2f" valueTypeId="d5d9e675-1d6c-4229-9af5-d22eb85cb2f0"/>
+    <managerType typeId="10af33ae-7587-444c-857e-cbc81eb877db" valueTypeId="3f2f9fae-1425-4f61-b9b1-a001b48b4167"/>
+  </producedTypes>
+  <name>ЭффективностьСпециалистов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Эффективность специалистов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ЭффективностьСпециалистов.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="ed6a53a7-dc8f-49fd-a176-85ce6ad4b574">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

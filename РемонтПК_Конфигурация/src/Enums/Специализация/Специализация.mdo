@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fb4c22c9-7ede-4c59-84a4-306b5c3038f2">
+  <producedTypes>
+    <refType typeId="f5bcec6c-7ea5-4cfc-813b-3c3f51b18882" valueTypeId="dac5931a-6770-437d-99e3-fc11e04ea29e"/>
+    <listType typeId="2b5c046e-901d-4989-9dc8-8f06b1aa09f4" valueTypeId="571f056e-30e7-47c4-ab33-131e387d7dc8"/>
+    <managerType typeId="6f4a3e2f-dc8b-421e-8434-e5858ed7d710" valueTypeId="c52427ca-b62d-4cdc-96ca-157b0a0e5010"/>
+  </producedTypes>
+  <name>Специализация</name>
+  <synonym>
+    <key>ru</key>
+    <value>Специализация</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="ecadfd1c-a9d2-4b4f-ba57-a410745ccf93">
+    <name>ПК</name>
+    <synonym>
+      <key>ru</key>
+      <value>ПК</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e881e2f0-203f-4e81-af62-3d2d0fb7beba">
+    <name>Принтеры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Принтеры</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

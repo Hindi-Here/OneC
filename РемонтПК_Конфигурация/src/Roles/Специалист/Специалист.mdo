@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a8f95f7d-2910-46c0-b952-c3f0d42e6274">
+  <name>Специалист</name>
+  <synonym>
+    <key>ru</key>
+    <value>Специалист</value>
+  </synonym>
+</mdclass:Role>
